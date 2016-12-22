@@ -1,5 +1,5 @@
 # hacker_news
-# displays the latest x posts on the Hacker News website
+# displays the top 30 posts from the Hacker News website
 
 import requests
 from bs4 import BeautifulSoup
