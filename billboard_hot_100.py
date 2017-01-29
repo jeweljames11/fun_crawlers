@@ -11,14 +11,14 @@ def remove_spaces(string):
 	index = 0
 	for i in range(0,len(string)):
 		if not string[i].isspace():
-			index = i
-			break
+		    	index = i
+		    	break
 	if index != 0:
 		string = string[i:]
 	# trailing spaces
 	for i in range(0,len(string)):
-		if string[i:].isspace():
-			string = string[:i]
+	        if string[i:].isspace():
+	        	string = string[:i]
 	return string
 
 print("Billboard Hot 100")
